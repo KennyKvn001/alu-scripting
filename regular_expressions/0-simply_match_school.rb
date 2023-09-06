@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-#[Sc-o]+
+#[Sc-p]*
