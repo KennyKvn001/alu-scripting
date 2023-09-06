@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-#t{2,5}
+#/^hbt{2,5}/n$
