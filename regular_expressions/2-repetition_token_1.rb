@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-# Match "hbtn, htn" 
+#:match "hbtn, htn" 
 /hb?tn/
