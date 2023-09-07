@@ -1,3 +1,3 @@
 #!/usr/bin/evn ruby
 # Match "hbn, hbtn, hbtttttn"
-/hbt*n/
+puts ARGV[0].scan(/hbt*n/).jion
