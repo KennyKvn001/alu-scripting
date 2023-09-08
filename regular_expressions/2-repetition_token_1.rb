@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 #:match "hbtn, htn" 
-/hb?tn/
+puts ARGV[0].scan(/hb?tn/).join
