@@ -23,4 +23,4 @@ def top_ten(subreddit):
         print(None)
     for t in top_ten:
         print(t.get('data').get('title'))
-        
+    
