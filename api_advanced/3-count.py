@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" 
-recursive function that queries the Reddit API 
 """
+Reddit Word Count
+recursive function that queries the Reddit API"""
 
 import requests
 
@@ -9,8 +9,7 @@ def count_words(subreddit, word_list, after=None, results=None):
     """
     parses the title of all hot articles
     prints a sorted count of given keywords 
-    (case-insensitive, delimited by spaces. Javascript should count as javascript, but java should not)
-    """
+    (case-insensitive, delimited by spaces. Javascript should count as javascript, but java should not)"""
 
     if results is None:
         results = {}
