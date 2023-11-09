@@ -1,10 +1,10 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """ imports request module """
 
 import requests
 
 def count_words(subreddit, word_list, after=None, results=None):
-    
+
     """ parses the title of all hot articles"""
 
     if results is None:
