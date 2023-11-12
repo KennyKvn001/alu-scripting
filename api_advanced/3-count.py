@@ -4,16 +4,6 @@ Script that queries the Reddit API,
 parses the title of hot articles in a subreddit,
 and prints a sorted count of given keywords.
 
-Requirements:
-- The requests library is required for making HTTP requests.
-
-Usage:
-- Replace 'YOUR_USER_AGENT' with a valid User-Agent string.
-
-Example:
-    subreddit_name = 'python'
-    keywords = ['python', 'java', 'javascript']
-    count_words(subreddit_name, keywords)
 """
 
 import requests
@@ -22,17 +12,6 @@ def count_words(subreddit, word_list, after=None, results=None):
     """
     Count occurrences of keywords in the titles of hot articles in a subreddit.
 
-    Args:
-        subreddit (str): The name of the subreddit.
-        word_list (list): List of keywords to count occurrences.
-        after (str): Token for pagination in Reddit API (default is None).
-        results (dict): Dictionary to store word counts (default is None).
-
-    Returns:
-        None
-
-    Prints:
-        Sorted count of keywords in descending order.
     """
     if results is None:
         results = {}
